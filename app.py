@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 from pickle import load
 from tensorflow.keras.models import load_model
-from tensorflow.keras_preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.utils import to_categorical
 
